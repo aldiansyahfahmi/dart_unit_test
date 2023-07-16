@@ -1,0 +1,8 @@
+# file ini untuk global configuration untuk unit test
+
+# semuanya hanya jalan di mac-os
+test_on: "mac-os"
+# ketika tag second maka di skip
+tags:
+  second:
+    skip: "Second tag is disabled"
